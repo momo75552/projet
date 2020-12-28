@@ -1,0 +1,5 @@
+mkdir -p  /mnt/cloud/
+mount -t  /mnt/cloud/
+mkdir -p archive
+cd archive
+ln  -s $(pwd)/ /mnt/cloud/
